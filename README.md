@@ -11,5 +11,5 @@
 Update your closest `package.json`
 
 ```json
-  "prettier": "@ipiber/prettier-config",
+  "prettier": "@piber/prettier-config",
 ```
