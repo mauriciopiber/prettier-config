@@ -8,6 +8,6 @@ on:
 jobs:
   release:
     uses: mauriciopiber/workflows-config/.github/workflows/semantic-release.yml@main
-    with:
+    secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
