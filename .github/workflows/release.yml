@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    uses: piber/workflows-config/.github/workflows/semantic-release.yml@main
+    uses: mauriciopiber/workflows-config/.github/workflows/semantic-release.yml@main
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
